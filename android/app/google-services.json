@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "173083384767",
+    "project_id": "learntodrive-15143",
+    "storage_bucket": "learntodrive-15143.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173083384767:android:c461c3d14276b9e49e1f0a",
+        "android_client_info": {
+          "package_name": "com.example.first_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALfhQBOJ63mCcFGofq1MKKRTlunztkZNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
