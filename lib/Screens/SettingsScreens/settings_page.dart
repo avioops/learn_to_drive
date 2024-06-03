@@ -190,22 +190,22 @@ void initState() {
                   ),
                   const SizedBox(height: 20,),
 
-                  (currentUser.role == 'User')
-                  ? SettingsWidget(
-                    onTap: (){
-                      // log("message");
-                      settingsController.payWithKhalti(context);
-                    },
-                    label: "upgrade-to-premium".tr,
-                    icon: Icons.payment,
-                    arrowIcon: Icons.keyboard_arrow_right,
-                  )
-                  : SettingsWidget(
-                    onTap: (() => Get.to(() => UserHistoryScreen())),
-                    label: "mock-exam-history".tr,
-                    icon: Icons.history,
-                    arrowIcon: Icons.keyboard_arrow_right,
-                  ),
+                  // (currentUser.role == 'User')
+                  // ? SettingsWidget(
+                  //   onTap: (){
+                  //     // log("message");
+                  //     settingsController.payWithKhalti(context);
+                  //   },
+                  //   label: "upgrade-to-premium".tr,
+                  //   icon: Icons.payment,
+                  //   arrowIcon: Icons.keyboard_arrow_right,
+                  // )
+                  // : SettingsWidget(
+                  //   onTap: (() => Get.to(() => UserHistoryScreen())),
+                  //   label: "mock-exam-history".tr,
+                  //   icon: Icons.history,
+                  //   arrowIcon: Icons.keyboard_arrow_right,
+                  // ),
 
                   const SizedBox(height: 20,),
 
